@@ -1,9 +1,14 @@
 # 빌드 단계
 FROM openjdk:17 AS builder
 WORKDIR /app
+
+# 필요한 유틸리티 설치 (xargs 포함)
+RUN apt-get update && apt-get install -y findutils
+
+# 소스 코드 복사 및 빌드
 COPY . .
-RUN chmod +x gradlew  # gradlew 실행 권한 부여
-RUN ./gradlew build   # Gradle로 빌드
+RUN chmod +x gradlew
+RUN ./gradlew build
 
 # 실행 단계
 FROM openjdk:17

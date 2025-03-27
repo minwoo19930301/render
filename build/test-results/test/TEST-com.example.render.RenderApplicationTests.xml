@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.render.RenderApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-03-27T00:46:40.882Z" hostname="LM-047983-00.local" time="0.448">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.render.RenderApplicationTests" time="0.448"/>
+  <system-out><![CDATA[09:46:40.164 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.render.RenderApplicationTests]: RenderApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:46:40.214 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.render.RenderApplication for test class com.example.render.RenderApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.4)
+
+2025-03-27T09:46:40.401+09:00  INFO 5045 --- [render] [    Test worker] c.example.render.RenderApplicationTests  : Starting RenderApplicationTests using Java 17.0.13 with PID 5045 (started by minwokim in /Users/minwokim/Documents/GitHub/render)
+2025-03-27T09:46:40.402+09:00  INFO 5045 --- [render] [    Test worker] c.example.render.RenderApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2025-03-27T09:46:40.877+09:00  INFO 5045 --- [render] [    Test worker] c.example.render.RenderApplicationTests  : Started RenderApplicationTests in 0.565 seconds (process running for 1.161)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
